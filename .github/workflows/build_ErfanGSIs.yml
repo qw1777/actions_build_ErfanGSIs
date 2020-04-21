@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://jaist.dl.sourceforge.net/project/coltos/Violet/ColtOS-v5.8-Official-20200413-violet.zip
-  ROM_NAME: ColtOS
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
