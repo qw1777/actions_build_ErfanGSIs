@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_21.O.07_OTA_007_all_1905120542_fc480574576b4843.zip 
-  ROM_NAME: OxygenOS
+  ROM_URL: http://bigota.d.miui.com/V11.0.3.0.OEGCNXM/miui_HM5Plus_V11.0.3.0.OEGCNXM_e47aba1020_8.1.zip 
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
