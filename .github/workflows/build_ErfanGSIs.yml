@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/V11.0.3.0.OEGCNXM/miui_HM5Plus_V11.0.3.0.OEGCNXM_e47aba1020_8.1.zip 
-  ROM_NAME: MIUI
+  ROM_URL: https://jaist.dl.sourceforge.net/project/coltos/Violet/ColtOS-v5.8-Official-20200413-violet.zip
+  ROM_NAME: ColtOS
   TZ: Asia/Shanghai
 
 jobs:
