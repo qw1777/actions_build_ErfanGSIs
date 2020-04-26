@@ -61,6 +61,6 @@ jobs:
        - name: Upload GSI to Transfer
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer trs final/GSI.zip
+              ./transfer gof final/GSI.zip
          
             
