@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://jaist.dl.sourceforge.net/project/coltos/Violet/ColtOS-v5.8-Official-20200413-violet.zip
-  ROM_NAME: Generic
+  ROM_URL: https://dl.google.com/dl/android/aosp/coral-qd1a.190821.007-factory-e915f51a.zip
+  ROM_NAME: Pixel
   TZ: Asia/Shanghai
 
 jobs:
