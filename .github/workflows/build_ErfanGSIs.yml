@@ -53,10 +53,10 @@ jobs:
        - name: Download Stock Rom & Generate Aonly GSI
          run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME
        
-       - name: Upload Aonly GSI to WeTransfer
+       - name: Upload Aonly GSI to WenShuShu
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet ErfanGSIs/output
+              ./transfer wss ErfanGSIs/output
            
        - name: Make clean
          run: sudo rm -rf ErfanGSIs/output/*
