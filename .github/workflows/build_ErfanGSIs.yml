@@ -53,14 +53,10 @@ jobs:
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
        
-       - name: Zip GSI  
-         run: |
-              mkdir final
-              zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
-       
-       - name: Upload GSI to Transfer
-         run: |
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer gof final/GSI.zip
+       - name: Upload GSI  
+         uses: actions/upload-artifact@master
+         with: 
+           name: ErfanGSIs
+           path: ErfanGSIs/output/*
          
             
