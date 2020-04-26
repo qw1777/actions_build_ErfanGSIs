@@ -50,13 +50,25 @@ jobs:
               cd ErfanGSIs
               sudo bash setup.sh
        
-       - name: Download Stock Rom & Generate GSI
-         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
+       - name: Download Stock Rom & Generate Aonly GSI
+         run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME
        
-       - name: Upload GSI  
+       - name: Upload Aonly GSI  
          uses: actions/upload-artifact@master
          with: 
-           name: ErfanGSIs
+           name: Aonly_GSI
+           path: ErfanGSIs/output
+           
+       - name: Make clean
+         run: rm -rf ErfanGSIs/output/*
+         
+       - name: Download Stock Rom & Generate AB GSI
+         run: sudo ./ErfanGSIs/url2GSI.sh -b $ROM_URL $ROM_NAME
+
+       - name: Upload AB GSI  
+         uses: actions/upload-artifact@master
+         with: 
+           name: AB_GSI
            path: ErfanGSIs/output
          
             
