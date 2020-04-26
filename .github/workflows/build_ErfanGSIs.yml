@@ -57,6 +57,6 @@ jobs:
          uses: actions/upload-artifact@master
          with: 
            name: ErfanGSIs
-           path: ErfanGSIs/output/*
+           path: ErfanGSIs/output
          
             
