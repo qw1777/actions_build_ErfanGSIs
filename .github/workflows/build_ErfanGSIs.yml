@@ -60,7 +60,7 @@ jobs:
        - name: Upload Aonly GSI to WeTransfer
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet MIX2S_Aonly.7z
+              ./transfer wet N7P_Aonly.7z
            
 #       - name: Make clean
 #         run: sudo rm -rf ErfanGSIs/output/*
