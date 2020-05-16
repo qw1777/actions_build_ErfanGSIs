@@ -54,8 +54,7 @@ jobs:
         
               cd ../../..
               
-              sudo bash setup.sh
-       
+            
        - name: Download Stock Rom & Generate Aonly GSI
          run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME
        
