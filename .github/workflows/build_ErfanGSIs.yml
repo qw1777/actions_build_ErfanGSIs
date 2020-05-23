@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/20.5.19/miui_MI8Lite_20.5.19_586771e647_10.0.zip
+  ROM_URL: https://hugeota.d.miui.com/20.5.21/miui_MI8Lite_20.5.21_4c776d4d43_10.0.zip
   ROM_NAME: MIUI For Android10
   TZ: Asia/Shanghai
 
