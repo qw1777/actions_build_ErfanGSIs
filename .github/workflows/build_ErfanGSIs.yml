@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/20.5.29/miui_MI6X_20.5.29_2e9889b9c1_9.0.zip
-  ROM_NAME: MIUI For Android 9
+  ROM_URL: https://hugeota.d.miui.com/20.6.2/miui_MI8Lite_20.6.2_55cf43e747_10.0.zip
+  ROM_NAME: MIUI For Android 10
   TZ: Asia/Shanghai
 
 jobs:
@@ -58,12 +58,12 @@ jobs:
        
        - name: 7z Aonly GSI
          run: |
-           7za a -t7z -r MAX3_Aonly_20.5.7-eu.7z ErfanGSIs/output/*
+           7za a -t7z -r gsi.7z ErfanGSIs/output/*
        
        - name: Upload Aonly GSI to WeTransfer
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet MAX3_Aonly_20.5.7-eu.7z
+              ./transfer wet gsi.7z
            
 #       - name: Make clean
 #         run: sudo rm -rf ErfanGSIs/output/*
