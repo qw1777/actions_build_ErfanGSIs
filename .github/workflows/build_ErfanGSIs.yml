@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/20.6.2/miui_MI8Lite_20.6.2_55cf43e747_10.0.zip
+  ROM_URL: https://111-47-209-110.ksyungslb.com/bigota.d.miui.com/20.3.26/miui_MI8Lite_20.3.26_053dcfdb5d_10.0.zip?ksy_gslb_referer=https%3A%2F%2Froms.miuier.com%2Fdevices%2Fplatina
   ROM_NAME: MIUI For Android 10
   TZ: Asia/Shanghai
 
