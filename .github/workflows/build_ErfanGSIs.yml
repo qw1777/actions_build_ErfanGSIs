@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://111-47-209-110.ksyungslb.com/bigota.d.miui.com/20.3.26/miui_MI8Lite_20.3.26_053dcfdb5d_10.0.zip?ksy_gslb_referer=https%3A%2F%2Froms.miuier.com%2Fdevices%2Fplatina
-  ROM_NAME: MIUI For Android 10
+  ROM_URL: http://download.h2os.com/OnePlus7Pro/OBT/OnePlus7ProHydrogen_13.X.35_OTA_035_all_2005160231_d0c9ce181f7c4bee.zip
+  ROM_NAME: OxyegnOS:HydrogenOS For Android 10
   TZ: Asia/Shanghai
 
 jobs:
