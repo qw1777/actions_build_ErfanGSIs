@@ -77,7 +77,4 @@ jobs:
 
 #       - name: Upload AB GSI to WeTransfer
 #         run: |
-#              curl -sL https://git.io/file-transfer | sh
-#              ./transfer wet AB_GSI.7z
-         
             
