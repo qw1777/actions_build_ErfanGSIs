@@ -74,10 +74,4 @@ jobs:
 #       - name: 7z AB GSI
 #         run: |
 #           7za a -t7z -r AB_GSI.7z ErfanGSIs/output/*
-
-#       - name: Upload AB GSI to WeTransfer
-#         run: |
-#              curl -sL https://git.io/file-transfer | sh
-#              ./transfer wet AB_GSI.7z
-         
             
